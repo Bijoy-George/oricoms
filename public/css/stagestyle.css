@@ -1,0 +1,110 @@
+.no_data {
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+.stage-row{
+	margin-bottom:20px;
+	}
+.stage-title {line-height:62px;font-size:22px;}
+.user-info {
+	width:100%;
+	max-width:450px;
+	display:flex;
+	margin-bottom:30px;
+	}
+.user-info .user-pic {
+	border-radius:50% 0 0 50%;
+	-webkit-border-radius:50% 0 0 50%;
+	padding:5px;
+	background-color:#a6ce39;
+	overflow:hidden;
+	width:100px;
+	}
+.user-info .user-pic img{
+	width:100%;
+	height:auto;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	}
+.user-info .user-detail {
+	border-radius: 0 100px 100px 0;
+	-webkit-border-radius:0 100px 100px 0;
+	padding:25px 10px 10px;
+	background-color:#a6ce39;
+	width:100%;
+	color:#fff;
+	}
+.user-info .user-detail h1 {
+	font-size:18px;
+	margin:0;
+	}
+.stage-row h3 {
+	font-size:18px;
+	margin:18px 0 0;
+	}
+.user-detail h3 {font-size:14px;margin:0;}
+.stage-info {
+	position:relative;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	text-align:center;
+	display:inline-block;
+	color:#FFF;
+	z-index:99;
+	padding-top:13px;
+	width:50px;
+	height:50px;
+	margin:10px auto;
+	}
+.stage-info.empty, .stage-details.empty {
+	background-color:#555;
+	}
+.stage-info.sms, .stage-details.sms {
+	//background-color:#CE11A2;
+	background-color:#555;
+	}
+.stage-info.email, .stage-details.email {
+	//background-color:#1462E0;
+	background-color:#555;
+	}
+.stage-info.call, .stage-details.call {
+	//background-color:#3DA507;
+	background-color:#555;
+	}
+a.stage-info:hover {
+	transform:scale(1.04);
+	-webkit-transform:scale(1.04);
+	box-shadow:0 0 15px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.3);
+	}
+.stage-row .stage-info:before {
+	position:absolute;
+	content:'';
+	background-color:#A2A7B4;
+	width:24px;
+	height:1px;
+	top:50%;
+	left:100%;
+	}
+.stage-row:not(:last-child) .stage-info:after {
+	position:absolute;
+	content:'';
+	background-color:#A2A7B4;
+	width:1px;
+	height:70px;
+	top:100%;
+	left:50%;
+	}
+.stage-details {
+	padding:15px;
+	color:#fff;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	}
+.stage-details p {
+	margin-bottom:5px;
+	}
+.stage-details p:last-child {
+	margin:0px;
+	}

@@ -1,0 +1,111 @@
+Survey:
+
+15-11-2018
+
+survey management
+survey report
+
+Feedback:
+
+15-11-2018
+feedback report
+
+Profile:
+
+15-11-2018
+profile customization
+
+
+Helpdesk:
+21-11-2018
+Followups Reopen
+followup history edit
+
+Master :
+21-11-2018
+lead source list
+lead source create
+lead source edit
+lead source delete
+
+lead source type list
+lead source type create
+lead source type edit
+lead source type delete
+
+Group :
+30-11-2018
+group management
+group create
+group edit
+group delete
+group list
+group lead import
+group excel import
+
+Campaign :
+30-11-2018
+campaign management
+campaign create
+campaign edit
+campaign list
+campaign delete
+
+Campaign Report:
+30-11-2018
+campaign email delivery graph
+campaign batch efficiency report
+campaign email batch report
+campaign sms delivery graph
+campaign sms batch report
+campaign autodial status graph
+campaign autodial batch report
+campaign manualcall status graph
+campaign manualcall batch report
+
+
+18-02-2019
+ticket followup graph
+enquiry date wise count
+enquiry by source graph
+feedback statistics graph
+survey statistics graph
+
+supply office create
+supply office edit
+supply office list
+supply office delete
+
+
+project management
+project create
+project edit
+project delete
+task create
+task edit
+task delete
+tracker create
+tracker edit
+tracker delete
+time tracker
+task management
+tracker management
+project management view
+project intimation management
+
+server management
+server create
+server edit
+server delete
+service create
+service edit
+service delete
+
+01-04-2020
+helpdesk summary chart
+agent wise helpdesk summary chart
+country wise registration chart
+
+
+
+

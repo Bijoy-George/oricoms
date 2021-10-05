@@ -1,0 +1,225 @@
+/*
+Author : Amruth Raj R
+Created on : 09-10-2018
+Company : OrisysIndia
+*/
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/fonts/nunito/Nunito-Regular.ttf");
+    src: url("/fonts/nunito/Nunito-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("/fonts/nunito/Nunito-SemiBold.ttf");
+    src: url("/fonts/nunito/Nunito-SemiBold.ttf") format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("/fonts/nunito/Nunito-Bold.ttf");
+    src: url("/fonts/nunito/Nunito-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/material/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(/fonts/material/MaterialIcons-Regular.woff2) format('woff2'),
+       url(/fonts/material/MaterialIcons-Regular.woff) format('woff'),
+       url(/fonts/material/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+*, :after, :before {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	outline: none;
+}
+
+::-moz-selection {
+ color: white;
+ background: #135ed7;
+}
+::selection {
+	color: white;
+	background: #135ed7;
+}
+html {
+	height: 100%;
+}
+a:hover, a:active, a:focus, tspan {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nunito', sans-serif;
+}
+.btn-orange {
+	background-color: #F36523;
+	color: #fff;
+}
+.btn-orange:hover {
+	background-color: #E04C12;
+	color: #fff;
+}
+.btn-orange:focus, .btn-orange:active, .btn-orange-outline:focus, .btn-orange-outline:active {
+	box-shadow: 0 0 0 4px rgba(243,101,35,0.5);
+	-webkit-box-shadow: 0 0 0 4px rgba(243,101,35,0.5);
+}
+.btn-orange-outline {
+	border: 1px solid #F36523;
+	background-color: transparent;
+	color: #F36523;
+}
+.btn-orange-outline:hover {
+	background-color: #F36523;
+	color: #fff;
+}
+body {
+	color: #222;
+	font-size: 14px;
+	min-height: 100%;
+}
+.web-body {
+	background: #ffffff;
+	background: -moz-linear-gradient(left, #ffffff 0%, #e4e4e4 100%);
+	background: -webkit-linear-gradient(left, #ffffff 0%, #e4e4e4 100%);
+	background: linear-gradient(to right, #ffffff 0%, #e4e4e4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e4e4', GradientType=1 );
+}
+.login-body {
+	/*background: #fff url(../img/wave-top.svg) no-repeat bottom -1px center;
+	background-size: 100% auto;*/
+}
+.login-wrapper-row {
+	min-height: 100vh
+}
+.bg-white {
+	background-color: #fff;
+}
+.navbar.bg-white {
+	box-shadow: 0 0 15px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.home-banner {
+	background: url(../img/wave-top.svg) no-repeat bottom -1px center;
+	background-size: 100% auto;
+}
+.home-banner .banner-row {
+	min-height: 70vh;
+}
+.home-banner h1 {
+	font-weight: 400;
+	font-size: 45px;
+}
+.home-banner h1 strong {
+	font-weight: 800;
+}
+.home-banner .banner-widget {
+	display: block;
+	background-color: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1);
+	margin: 15px 0px;
+}
+.home-features {
+	color: #FFF;
+	background: #f36523; /* Old browsers */
+	background: -moz-linear-gradient(left, #f36523 0%, #f33e0d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #f36523 0%, #f33e0d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #f36523 0%, #f33e0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36523', endColorstr='#f33e0d', GradientType=1 );
+}
+.home-features .card {
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1);
+	color: #333;
+	border: none;
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+}
+.home-pricing {
+	background: url(../img/wave-bottom.svg) no-repeat top -1px center;
+	background-size: 100% auto;
+	padding-top: 180px;
+	padding-bottom: 3rem;
+}
+.home-pricing .pricing-table {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.register-container {
+	border-radius:30px;
+	-webkit-border-radius:30px;
+	box-shadow: 0 0 25px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 25px rgba(0,0,0,0.2);
+	overflow:hidden;
+	}
+.register-container .orange-bg{
+	background-color: #F36523;
+	color:#FFF;
+	}
+@media (min-width: 768px) {
+.row-reverse-sm {flex-direction: row-reverse;}
+.min-height-full-sm {
+	min-height:100vh;
+	}
+}
+@media (max-width: 768px) {
+.web-body {
+	padding-top:50px;
+	}
+.web-body .navbar.fixed-top {
+	top:10px;
+	left:10px;
+	right:10px;
+	background-color:#fff;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+	}
+.web-body .navbar-light .navbar-nav .nav-link {
+    font-size:20px;
+}
+}
